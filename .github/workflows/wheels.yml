@@ -21,6 +21,7 @@ name: Python wheels
 on:
   push:
     tags: ['v*']
+    branches: ['ci-test-314']
   workflow_dispatch:
 
 concurrency:
